@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>BASIC LOGIC GATES</title>
+ <link rel="stylesheet" href="logic_gates.css">
+ <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/2x/electronics.png"/>
+ <h1>Digital Electronics</h1> 
+ <div id="d3">
+ <img src="https://images.unsplash.com/photo-1613500428454-70dcc9e23a80?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGlnaXRhbCUyMGNpcmN1aXRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" height="400px"/> 
+ <img src="https://images.unsplash.com/photo-1580584126903-c17d41830450?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZGlnaXRhbCUyMGNpcmN1aXRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="600px" height="400px"/>
+ <img src="https://media.istockphoto.com/photos/computer-board-hardware-motherboard-microelectronics-server-cpu-chip-picture-id958956392?s=612x612" width="650px" height="400px"/>
+</div>
+ <h2>Basic knowledge about Analog and Digital Electronics</h2> 
+</head>
+<body>
+    <div id="d1">
+        <p>The basic logic gates are :</p>
+        <ol>
+        <li>AND GATE</li>
+        <li>OR GATE</li>
+        <li>NOT GATE</li>
+        </ol>
+    </div>
+    <p>Using these logic gates we can design any complex circuit.</p> 
+    <p>Some other GATES that are combinational logic circit and are grouped as <b>Universal Gates</b> :</p>
+    <ul>
+        <li><b>NAND Gate</b> : AND + NOT Gate</li>
+        <li><b>NOR Gate</b> : OR + NOT Gate</li>
+    </ul>    
+        <p><a href="universal_gates.html">Click Here</a> to know more about Universal Logic Gates</p>
+    
+    <div id="d2">
+        <p>Let us get some knowledge about these Logic Gates :</p>
+        <ol>
+            <li><b>AND GATE</b></li>
+            <details>
+                <summary>AND Gate</summary>
+                <p>This gate accepts minimum 2 inputs.</p>
+                <p>This gate produces <b>high voltage(O/P=1)</b> only when <b>all the inputs</b> are high voltage(I/P=1).</p>
+                <p>AND Gate is represneted by the following <i>symbol</i> :</p>
+                <img src="C:\Users\Sayan\Pictures\AND Gate.jpg" alt="AND Gate symbol" width="30%" height="20%">
+                <p><b>TRUTH TABLE</b> (with two inputs): </p>                
+                <table>
+                    <tr><td><b> Input1 </b></td><td><b> Input2 </b></td><td><b> Output </b></td></tr>
+                    <tr><td> 0 </td><td> 0 </td><td>    0 (low voltage) </td></tr>
+                    <tr><td> 0 </td><td> 1 </td><td>    0 (low voltage) </td></tr>
+                    <tr><td> 1 </td><td> 0 </td><td>    0 (low voltage)</td></tr>
+                    <tr><td> 1 </td><td> 1 </td><td>    1 (high voltage) </td></tr>
+                </table>    
+            </details>
+            <li><b>OR GATE</b></li>
+            <details>
+                <summary>OR Gate</summary>
+                <p>This gate accepts minimum 2 inputs.</p>
+                <p>This gate produces <b>high volate(O/P=1)</b> when one or more input is high voltage(I/P=1).</p>
+                <p>OR Gate is represneted by the following <i>symbol</i> :</p>
+                <img src="C:\Users\Sayan\Pictures\OR Gate.jpg" alt="AND Gate symbol" width="30%" height="20%">
+                <p><b>TRUTH TABLE</b> (with two inputs): </p>
+                <table>
+                    <tr><td><b> Input1 </b></td><td><b> Input2 </b></td><td><b> Output </b></td></tr>
+                    <tr><td> 0 </td><td> 0 </td><td>    0 (low voltage) </td></tr>
+                    <tr><td> 0 </td><td> 1 </td><td>    1 (high voltage) </td></tr>
+                    <tr><td> 1 </td><td> 0 </td><td>    1 (high voltage)</td></tr>
+                    <tr><td> 1 </td><td> 1 </td><td>    1 (high voltage) </td></tr>
+                </table>    
+            </details>
+            <li><b>NOT GATE</b></li>
+            <details>
+                <summary>NOT Gate</summary>
+                <p>This gate accepts only one 1 input and negates the output.</p>
+                <p>NOT gate produces <b>low voltage (O/P=0)</b> on recieving <b>high voltage (I/P=1)</b> and vice-versa.</p>
+                <p>NOT Gate is represneted by the following <i>symbol</i> :</p>
+                <img src="C:\Users\Sayan\Pictures\NOT gate.jpg" alt="AND Gate symbol" width="30%" height="20%">
+                <p><b>TRUTH TABLE</b> : </p>
+                <table>
+                    <tr><td><b> Input1 </b></td><td><b> Output </b></td></tr>
+                    <tr><td> 0(low volate) </td><td>    1 (high voltage) </td></tr>
+                    <tr><td> 1(high voltage) </td><td>    0 (low voltage) </td></tr>
+                </table>    
+            </details>
+        </ol>
+    </div>
+    <section class="last">
+        <h3>*NOTE BELOW : </h3>
+            <p>*High Volate = +5V which is represented by 1 in binary language.</p>
+            <p>*Low Volate = 0V which is represented by 0 in binary language.</p>
+    </section>
+    <p><i>This page has been created by Sayan Sen</i></p>
+</body>
+</html>
